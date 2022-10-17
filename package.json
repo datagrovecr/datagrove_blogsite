@@ -1,0 +1,30 @@
+{
+  "name": "datagrove_blogsite",
+  "version": "1.0.0",
+  "description": "a website where the developers can upload their blogpost",
+  "main": "index.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datagrovecr/datagrove_blogsite.git"
+  },
+  "keywords": [
+    "blog",
+    "website"
+  ],
+  "author": "Raquel Abarca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datagrovecr/datagrove_blogsite/issues"
+  },
+  "homepage": "https://github.com/datagrovecr/datagrove_blogsite#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.21"
+  }
+}
