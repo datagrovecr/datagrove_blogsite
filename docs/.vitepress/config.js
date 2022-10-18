@@ -15,7 +15,7 @@ export default ({
             {
               text: 'Menu',
               items: [
-                { text: 'Item A', link: '/item-1' },
+                { text: 'Our team', link: '/team.md' },
                 { text: 'Item B', link: '/item-2' },
                 { text: 'Item C', link: '/item-3' }
               ]

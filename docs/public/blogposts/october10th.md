@@ -1,3 +1,5 @@
+<img style="float: left;" src="https://avatars.githubusercontent.com/u/110683318?v=4" alt="drawing" width="50"/> 
+
 # Understanding OpenXML SDK
 
 My feature is about an SDK that will help to translate a .md file to the popular .docx format. This has been mostly achieved with the help of the popular
