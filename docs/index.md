@@ -8,6 +8,6 @@ In this website you will find blog post that our developers upload about what th
 ## Some blogpost of our team
 ### Understanding OpenXML SDK
 
-[Read more ->](/public/blogposts/october10th.md)
+[Read more ->](/blogposts/october10th.md)
 
-[Second page](/public/blogposts/template.md)
+[Second page](/blogposts/template.md)

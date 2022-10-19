@@ -1,4 +1,3 @@
-<img style="float: left;" src="https://avatars.githubusercontent.com/u/110683318?v=4" alt="drawing" width="50"/> 
 
 # Understanding OpenXML SDK
 

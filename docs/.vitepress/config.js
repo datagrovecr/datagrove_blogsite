@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 export default ({
 
     title: 'Datagrove Blog',
-    base: '/',
     description: 'Software That Does Good',
 
     themeConfig: {
@@ -20,6 +19,6 @@ export default ({
                 { text: 'Item C', link: '/item-3' }
               ]
             }
-          ]
+          ],
       }
 })
