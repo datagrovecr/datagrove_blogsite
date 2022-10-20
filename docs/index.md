@@ -1,13 +1,31 @@
-# Welcome
-# To Datagrove Blog
+---
+layout: home 
 
-## What you can find here?
+heroImage: /bright_green_circle.png
 
-In this website you will find blog post that our developers upload about what they learn, problems that they solve, and updates about their projects.
+hero: 
+  name: WELCOME
+  text: To Datagrove blogsite
+  description: Datagrove Costa Rica blog website
 
-## Some blogpost of our team
-### Understanding OpenXML SDK
+  actions:
+  - theme: brand
+    text: What can I find here?
+    link: /jobs/
+  - theme: alt
+    text: Know our team
+    link: /about/
 
-[Read more ->](/blogposts/october10th.md)
+features:
+- date: 10/10/2022
+  title: Learn
+  details: Come learn with us. We are learning how to create the software that the world needs right now.
+- title: Purpose
+  details: We don't make games. We don't sell ads. We build software to create the world we want to live in.
+- title: Community
+  details: You will be surrounded by people who want to learn and want to serve, just like you!
+---
 
-[Second page](/blogposts/template.md)
+|hola hola camaron con cola|
+
+|hola|hola|

@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 
-export default ({
+export default defineConfig({
 
     title: 'Datagrove Blog',
     description: 'Software That Does Good',

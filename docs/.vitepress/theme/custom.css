@@ -1,40 +1,337 @@
 :root {
-    --vp-c-brand: #81df69;
-    --vp-c-brand-light: #080f91;
-  }
+  --font-family-base: sans-serif;
+}
 
-/**
- * Component: Nav
- * -------------------------------------------------------------------------- */
+.page, .home, body {
+  background-color: var(--background-color-primary);    
+}
 
- :root {
-    --vp-nav-height: var(--vp-nav-height-mobile);
-    --vp-nav-height-mobile: 56px;
-    --vp-nav-height-desktop: 72px;
-  }
+th + th {
+  width: 100%;
+}
+
+/* th:first-child {
+  background-color: red;
+} */
+
+h1 {
+  color: var(--h1-text-color)
+}
+
+h2 {
+  color: var(--h2-text-color);
+}
+
+h4 {
+  font-size: x-large;
+}
+
+.VPLink.link.VPNavBarMenuLink {
+  font-size: large;
+}
+
+div.VPNavBarTitle > a {
+  font-size: large !important;
+
+}
+
+button.button > span.text {
+  font-size: large !important;
+}
+
+div.VPNavBarAppearance.appearance {
+  display: none;
+}
+
+.table-wrapper, .home {
+  /* border: 2px solid red; */
+  height: 90vh;
+  position: relative;
+  margin-bottom: 300px;
+}
+
+.page-wrapper {
+  margin: 0 20% 0 20%;
+}
+.aside, .VPFlyout.VPNavBarExtra.extra, .VPNavBarAppearance.appearance, .VPNavScreenAppearance.appearance{
+  display: none !important;
+}
+
+.VPButton.medium.brand:hover {
+  background-color: var(--vp-button-brand-hover);
+  /* color: var(--vp-button-alt-text); */
+  border-color: var(--vp-button-brand-border);
+} 
+
+.VPButton.medium.alt:hover {
+  background-color: var(--vp-button-alt-hover);
+  color: var(--vp-button-brand-text);
+}
+
+h2 a, p a, h4 a {
+  color: var(--contrast-link-color) !important;
+}
+
+.btn-footer-div {
+  /* border: 2px solid yellow; */
+  height: 25vh;
+  text-align: center;
+  position: relative;
+}
+
+#home-footer-div {
+  background-color: var(--bg-color-footer);
+  width: 79%;
+  margin-left: 10%;
+}
+
+.footer-text-div {
+  display: flex;
+  justify-content: center;
+  /* text-align:center;  */
+  /* position: fixed;  */
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+  /* margin-left: 20%; */
+  margin-top: 50px;
+  background-color: var(--bg-color-footer)
   
-  @media (min-width: 960px) {
-    :root {
-      --vp-nav-height: var(--vp-nav-height-desktop);
-    }
+}
+
+footer, .page-footer {
+  /* background-color: yellow; */
+  height: 0px;
+  display: none !important;
+}
+
+.footer-text {
+  /* background-color: yellow; */
+  text-align: center;
+}
+
+.contact-table-wrapper {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+}
+
+.info.custom-block {
+  max-width: 80%;
+  margin-left: 20%;
+}
+
+/* .about-table {
+  width: 100%;
+} */
+
+.about-table {
+  /* background-color: pink; */
+  box-sizing: border-box;
+}
+
+.staff-bio {
+  box-sizing: border-box;
+  display: flex;
+  margin: 10px;
+  /* background-color: orange; */
+  padding: 5px;
+  border: 1px solid var(--bio-border-color);
+  align-items: center;
+}
+
+.table-col-one {
+  box-sizing: border-box;
+  width: 35%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: green; */
+}
+
+.table-col-two {
+  width: 65%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.team-photo {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 15px; 
+}
+
+@media only screen and (max-width: 640px) {
+  .table-wrapper {
+      /* background-color: yellow; */
+      overflow-x: none;
+      width: 100%;
+      height: 100%;
   }
 
-/**
- * Component: Sidebar
- * -------------------------------------------------------------------------- */
-
- :root {
-    --vp-sidebar-width: 272px;
+  table {
+      width: 100%;
+      overflow-x: scroll;
   }
 
-  /**
- * Component: Home
- * -------------------------------------------------------------------------- */
-
-:root {
-    --vp-home-hero-name-color: var(--vp-c-brand);
-    --vp-home-hero-name-background: transparent;
-  
-    --vp-home-hero-image-background-image: none;
-    --vp-home-hero-image-filter: none;
+  th:nth-child(even) {
+      padding: 0;
   }
+
+  .footer-text-div, .home .footer-text-div {
+      margin: 0px;
+      /* text-align: center; */
+  }
+
+  .contact-table-wrapper {
+      /* border: 2px solid red; */
+      display: inline;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .contact-logo {
+      /* border: 5px solid yellow; */
+      height: 150px;
+  }
+
+  .contact-div {
+      /* background-color: red; */
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      /* align-items: center; */
+  }
+
+  .contact-text {
+      text-align: center;
+  }
+
+  /* .team-photo {
+      display: none;
+  } */
+
+  /* th:first-child {
+      display: none;
+  } */
+
+  /* .about-table {
+      
+  } */
+
+  .staff-bio {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .table-col-one {
+      display: flex;
+      width: 100%;
+  }
+
+  .table-col-two {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+  }
+
+  .team-photo {
+      min-width: 150px;
+      min-height: 150px;
+      border-radius: 50%;
+  }
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+
+      --background-color-primary: #f4f2f2;
+      --background-color-primary: white;
+      --text-color-light: #ddd;
+      --bg-color-footer: lightgray;
+      /* --c-brand: #195955; */
+      --vp-home-hero-name-color: #435E1C;
+      --vp-c-text-1: #245881;
+      --vp-c-brand: #435E1C;
+
+      --vp-button-brand-bg: #435E1C;
+      --vp-button-brand-border: #435E1C;
+      --vp-button-brand-text: white;
+      --vp-button-brand-hover: #812458;
+
+      --vp-button-alt-bg: white;
+      --vp-button-alt-border: #435E1C;
+      --vp-button-alt-text: #435E1C;
+      --vp-button-alt-hover: #812458;
+
+      --h1-text-color: #435E1C;
+      --h2-text-color: #435E1C;
+
+      --contrast-link-color: #812458;
+
+      --bio-border-color: lightgray;
+  }
+
+  .green {
+      display: none;
+  }
+
+  .blue {
+      display: inline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color-primary: black;
+    --c-bg: #15202B;
+
+    --accent-color: #73A92F;
+    --text-primary-color: #ddd;
+    --bg-color-footer: #223345;
+
+    --vp-home-hero-name-color: #73A92F;
+    --vp-c-text-1: whitesmoke;
+    --vp-c-brand: #73A92F;
+
+    --vp-button-brand-bg: #73A92F;
+    --vp-button-brand-border: #73A92F
+    --vp-button-brand-text: white;
+    --vp-button-brand-hover: #2FA9A2;
+
+    --vp-button-alt-bg: white;
+    --vp-button-alt-border: #73A92F;
+    --vp-button-alt-text: #73A92F;
+    --vp-button-alt-hover: #2FA9A2;
+
+    --h1-text-color: #73A92F;
+    --h2-text-color: #73A92F;
+
+    --contrast-link-color: #2FA9A2;
+
+    --bio-border-color: black;
+  }
+
+  .blue {
+      display: none;
+  }
+
+  .green {
+      display: inline;
+  }
+}
