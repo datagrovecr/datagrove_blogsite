@@ -16,7 +16,7 @@ export default defineConfig({
               text: 'Menu',
               items: [
                 { text: 'Our team', link: '/team.md' },
-                { text: 'Item B', link: '/item-2' },
+                { text: 'Item B', link: '/blogposts/october10th.md' },
                 { text: 'Item C', link: '/item-3' }
               ]
             }
