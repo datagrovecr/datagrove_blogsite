@@ -1,4 +1,3 @@
-
 # Understanding OpenXML SDK
 
 My feature is about an SDK that will help to translate a .md file to the popular .docx format. This has been mostly achieved with the help of the popular
