@@ -23,9 +23,10 @@ features:
 - title: Purpose
   details: We don't make games. We don't sell ads. We build software to create the world we want to live in.
 - title: Community
-  details: You will be surrounded by people who want to learn and want to serve, just like you!
+  details: You will be surrounded by people who want to learn and want to serve, just like you! 
 ---
 
-|hola hola camaron con cola|
-
-|hola|hola|
+::: info Latest Blog
+This is an info box.
+[read](/blogposts/october1)
+:::

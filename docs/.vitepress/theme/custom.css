@@ -298,7 +298,7 @@ footer, .page-footer {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color-primary: black;
+    --background-color-primary: rgb(21, 20, 20);
     --c-bg: #15202B;
 
     --accent-color: #73A92F;
@@ -322,7 +322,7 @@ footer, .page-footer {
     --h1-text-color: #73A92F;
     --h2-text-color: #73A92F;
 
-    --contrast-link-color: #2FA9A2;
+    --contrast-link-color: #298a37;
 
     --bio-border-color: black;
   }
