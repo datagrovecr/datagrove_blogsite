@@ -20,20 +20,43 @@ hero:
 <table style="width:90%">
   <tr>
     <th>
+      <div class="avatar" style="background-image: url(https://avatars.githubusercontent.com/u/110420288?v=4)"></div>
+    </th>
+    <th style="width:95%">
+      <p><h2>Raquel Abarca</h2></p>
+      <p><h3>October 17, 2022</h3></p>
+    </th>
+  </tr>
+  <tr>
+    <th style="width:80%" colspan="2">
+      <h1>Creating my first website with Vitepress</h1>
+    </th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>I am using Vitepress to specifically work on creating a website, with only Vitepress I have the chance to create and design a functional site, in my case, a blog site in wich the developers can upload their own blogs with information about on what are they working, how they solve a problem or any other idea o documentation.</p>
+      <p><a href=/blogposts/october17th>Read more -></a></p>
+    </td>
+  </tr>
+</table>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;
+
+<table style="width:90%">
+  <tr>
+    <th>
       <div class="avatar" style="background-image: url(https://avatars.githubusercontent.com/u/110683318?v=4)"></div>
     </th>
     <th style="width:95%">
       <p><h2>Fabian Valverde</h2></p>
-      <p><h3>10/10/2022</h3></p>
+      <p><h3>October 10, 2022</h3></p>
     </th>
   </tr>
-
   <tr>
     <th style="width:80%" colspan="2">
       <h1>Understanding OpenXML SDK</h1>
     </th>
   </tr>
-
   <tr>
     <td colspan="2">
       <p>My feature is about an SDK that will help to translate a .md file to the popular .docx format. This has been mostly achieved with the help of the popular package "Markdig" which helps to translate markdown to html and the "HtmlToDocx" package that is in charge of translate the new html file to the final result in docx format.
