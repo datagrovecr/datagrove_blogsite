@@ -6,11 +6,14 @@
 
 First, clone the repo:
 
-> git clone https://github.com/datagrovecr/website.git
+> git clone https://github.com/datagrovecr/datagroce_blosite.git
 > npm install
 > You can run it locally with:
 > npm run docs:dev
-In...
+
+In the `blogposts` folder you can upload your blog post
+
+If you want your post to have a preview on the main page, you must copy and paste the existing table, change the title, date, add the first paragraph or introduction of your blog and add the link of your github profile picture.
 
 To deploy: The Datagrove Costa Rica website is hosted by Cloudflare, and any updates to the datagrovecr repo will deploy those updates to the website itself.
 
