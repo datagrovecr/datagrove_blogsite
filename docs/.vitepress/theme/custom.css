@@ -364,22 +364,20 @@ div.avatar {
 }
 
 .avatar-image{
-  color:rgb(255, 255, 255);
-  width: 70px;
-  height: 70px;
-  text-align: center;
-  line-height: 120px;
+  border: 1px solid #ddd;
+  width: 65px;
 }
 
 .name-date{
   color:rgb(255, 255, 255);
-  width: 90%;
+  border: 1px solid #ddd;
   height: 70px;
+  width: 50%;
   text-align:left ;
-  line-height: 35px;
 }
 
 .preview-text{
+  border: 1px solid #ddd;
   color:rgb(255, 255, 255);
   width: 100%;
   text-align: left;

@@ -10,16 +10,27 @@ export default defineConfig({
         
         logo: '/bright_green_circle.png',
 
+        sidebar: [
+            {
+            text: 'Blog menu',
+            items: [
+              {text: 'All', link: '/all_blogs'},
+            ]
+            },
+            {
+            text: 'Topics',
+            items: [
+              { text: 'Vitepress', link: '/blog_topics/vitepress' },
+              { text: 'OpenXML SDK', link: '/blog_topics/openxml_sdk' },
+            
+            ]
+          }
+        ],
+
         nav: [
             { text: 'Home page', link: '/index' },
-            {
-              text: 'Menu',
-              items: [
-                { text: 'Our team', link: '/team.md' },
-                { text: 'Item B', link: '/blogposts/october10th.md' },
-                { text: 'Item C', link: '/item-3' }
+            { text: 'Our team', link: 'https://datagrovecr.com/about/' },
+            { text: 'Blogs', link: '/all_blogs' },
               ]
             }
-          ],
-      }
-})
+      })
