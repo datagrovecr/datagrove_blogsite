@@ -16,9 +16,4 @@
   </div>
 </section>
 
-<IFRAME src="/blogposts/preview/pre
-  _october10th" width="500" height="500"
-             scrolling="auto">
-  <A href="/blogposts/preview/pre
-  _october10th">the related document.</A>
-  </IFRAME>
+<script setup>
