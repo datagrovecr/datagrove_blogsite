@@ -11,7 +11,7 @@ export default defineConfig({
         logo: '/bright_green_circle.png',
 
         nav: [
-            { text: 'Home page', link: '/index' },
+            { text: 'Home page', link: '/' },
             { text: 'More about Datagrove', link: 'https://datagrovecr.com' },
               ]
             }
