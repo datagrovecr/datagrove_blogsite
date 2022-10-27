@@ -15,5 +15,3 @@
     <p><a href=/blogposts/october10th>Read more -></a></p>
   </div>
 </section>
-
-<script setup>

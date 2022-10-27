@@ -7,14 +7,6 @@ hero:
   name: WELCOME
   text: To Datagrove blogsite
   description: Datagrove Costa Rica blog website
-
-  actions:
-  - theme: brand
-    text: What can I find here?
-    link: /jobs/
-  - theme: alt
-    text: Meet our team
-    link: https://datagrovecr.com/about/
 ---
 <link rel="stylesheet" type="text/css" href="/.vitepress/theme/custom.css" />
 
