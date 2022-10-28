@@ -12,7 +12,7 @@ hero:
 
 <section class="blog-preview">
   <div class= "avatar-image">
-    <div class="avatar" style="background-image: url(https://avatars.githubusercontent.com/u/110420288?v=4)"></div>
+    <div class="avatar" style="background-image: url(/Raquel.webp)"></div>
   </div>
   <div class= "name-date">
     <p><h2>Raquel Abarca</h2></p>
@@ -31,7 +31,7 @@ hero:
 
 <section class="blog-preview">
   <div class= "avatar-image">
-    <div class="avatar" style="background-image: url(https://avatars.githubusercontent.com/u/110683318?v=4)"></div>
+    <div class="avatar" style="background-image: url(/Fabian.jpeg)"></div>
   </div>
   <div class= "name-date">
     <p><h2>Fabian Valverde</h2></p>
