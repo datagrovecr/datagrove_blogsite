@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as o}from"./app.0119e290.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog_topics/openxml_sdk.md"}'),s={name:"blog_topics/openxml_sdk.md"},n=o("",1),r=[n];function i(l,d,c,h,p,_){return a(),e("div",null,r)}const f=t(s,[["render",i]]);export{u as __pageData,f as default};
