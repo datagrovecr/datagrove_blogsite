@@ -21,4 +21,11 @@ git add .
 git commit -m "<insert message describing changes>"
 git push
 
+For updates:
+
+- Add the blog to the file `blogposts` with the date as the name (rememeber to add .md).
+
+- Go to `index.md` file tu upload the prewiew, you just need to copy and paste and change the information like the date, title and text.
+
+- You can see and select the picture for your avatar in the file `public`.
 License: MIT

@@ -12,7 +12,64 @@ hero:
 
 <section class="blog-preview">
   <div class= "avatar-image">
-    <div class="avatar" style="background-image: url(/Raquel.webp)"></div>
+    <div class="avatar" style="background-image: url(/raquel.jpeg)"></div>
+  </div>
+  <div class= "name-date">
+    <p><h2>Raquel Abarca</h2></p>
+    <p><h3>November 28, 2022</h3></p>
+  </div>
+  <div class= "preview-text">
+    <h1>Update of the markdown to PDF feature</h1>
+     &nbsp;&nbsp;&nbsp;&nbsp; 
+    <p>Since the last blog I have worked on different things, the first of all was the unordered list, To make this possible I use the `pw.Bullet` widget, and then I add the text. This is the code:</p>
+     &nbsp;&nbsp;&nbsp;&nbsp;
+    <p><a href=/blogposts/november28th>Read more -></a></p>
+  </div>
+</section>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<section class="blog-preview">
+  <div class= "avatar-image">
+    <div class="avatar" style="background-image: url(/andres.png)"></div>
+  </div>
+  <div class= "name-date">
+    <p><h2>Andrés Villalobos</h2></p>
+    <p><h3>November 21, 2022</h3></p>
+  </div>
+  <div class= "preview-text">
+    <h1>Organizing Resources with a Website</h1>
+     &nbsp;&nbsp;&nbsp;&nbsp; 
+    <p>Project Function: The purpose of this project is to have a place where we can share resources with other developers that aren't part of the DataGrove team and with people who are looking to join the team in the near future. </p>
+     &nbsp;&nbsp;&nbsp;&nbsp;
+    <p><a href=/blogposts/november21th>Read more -></a></p>
+  </div>
+</section>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<section class="blog-preview">
+  <div class= "avatar-image">
+    <div class="avatar" style="background-image: url(/raquel.jpeg)"></div>
+  </div>
+  <div class= "name-date">
+    <p><h2>Raquel Abarca</h2></p>
+    <p><h3>November 14, 2022</h3></p>
+  </div>
+  <div class= "preview-text">
+    <h1>Widgets for the markdown to pdf</h1>
+     &nbsp;&nbsp;&nbsp;&nbsp; 
+    <p>This project has the function to convert a markdown file into a PDF, for that, the markdown file is converted to HTML and the new HTML must be converted to PDF (this process is what I'm working on). In this project, I have the task of transforming the HTML into a PDF file, the challenge here is that there is not exist a package that converts automatically the HTML to pdf (as the markdown to HTML) so I need to create a new code to make that the PDF show correctly all the information with the correct format and functions, to make this I need to use Dart, and different packages.</p>
+     &nbsp;&nbsp;&nbsp;&nbsp;
+    <p><a href=/blogposts/november14th>Read more -></a></p>
+  </div>
+</section>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<section class="blog-preview">
+  <div class= "avatar-image">
+    <div class="avatar" style="background-image: url(/raquel.jpeg)"></div>
   </div>
   <div class= "name-date">
     <p><h2>Raquel Abarca</h2></p>
